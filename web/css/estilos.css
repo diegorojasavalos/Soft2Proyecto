@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.letra{
+    color: white;
+}
+
+.ancho{
+    width: 130px;
+    height: 130px;
+}
+
+.espacio{
+    margin-top: 40px;
+}
+
+span.badge.new::before{
+    background-color: #FF6F00 !important;
+}
+
+span.badge.new:after {
+    content: " nuevo";
+}
+
+.centroVert{
+    top: 30%;
+}
+
+.borde{
+    border-radius: 10px;
+    padding: 0px !important;
+}
+
+.secondary-content {
+    color: #FF6F00 !important;
+}
+
+.btn-floating {
+    position: relative;
+    overflow: hidden;
+    margin-top: 15%;
+    margin-left: 95%;
+}
